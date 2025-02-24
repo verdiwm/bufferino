@@ -1,7 +1,14 @@
 [package]
 name = "bufferino"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2024"
+license = "Apache-2.0"
+authors = ["Matilde Morrone <contact@morrone.dev>"]
+description = "Rusty wrapper around gbm"
+readme = "README.md"
+documentation = "https://docs.rs/bufferino"
+repository = "https://github.com/verdiwm/bufferino"
+include = ["src/**/*.rs", "build.rs", "README.md", "LICENSE"]
 
 [dependencies]
 
